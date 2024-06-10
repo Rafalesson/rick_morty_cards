@@ -13,7 +13,7 @@
   }
 
   .main_titulo {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .character_container {
@@ -66,5 +66,12 @@
     bottom: 4rem;
     right: 1rem;
 
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main_titulo {
+    font-size: 2.5rem;
   }
 }
