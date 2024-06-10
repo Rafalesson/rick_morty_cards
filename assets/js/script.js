@@ -46,7 +46,7 @@ async function fetchCharacters(page = 1) {
                 </div>
 
                 <div class="card_info_p3">
-                    <p class="seen">First seen in the episode:</p>
+                    <p class="seen">First seen in:</p>
                     <h4 class="card_ep_nome">${episodeData.name}</h4>
                 </div>
             </div>
@@ -84,13 +84,13 @@ async function loadMoreCharacters() {
   await fetchCharacters(currentPage);
 }
 
-// Quando o usuário rolar para baixo 1000px do topo do documento, mostre o botão
+// Quando o usuário rolar para baixo 500px do topo do documento, mostre o botão
 window.onscroll = function() {
   scrollFunction();
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     document.getElementById("backToTopBtn").style.display = "block";
   } else {
     document.getElementById("backToTopBtn").style.display = "none";

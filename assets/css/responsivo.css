@@ -1,0 +1,70 @@
+@media only screen and (max-width: 850px) {
+  .cabecalho {
+    height: 30vh;
+  }
+
+  .background {
+    background-size: contain;
+    height: 30vh;
+  }
+
+  .navegacao {
+    width: 80%;
+  }
+
+  .main_titulo {
+    font-size: 2.5rem;
+  }
+
+  .character_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .character_card {
+    width: 90%;
+    height: 30vh;
+  }
+
+  .character_card:nth-child(2) {
+    margin-top: 1rem;
+  }
+
+  .container_card_foto {
+    height: 30vh;
+    width: 40vw;
+  }
+
+  .card_status{
+    font-size: .9rem;
+  }
+
+  .card_foto {
+    height: 100%;
+    width: 40vw;
+  }
+
+  .card_info {
+    height: 25vh;
+  }
+
+  .card_nome {
+    font-size: 1.15rem;
+  }
+
+  .card_location,
+  .card_ep_nome {
+    font-size: 1rem;
+  }
+
+  .location,
+  .seen {
+    font-size: 0.9rem;
+  }
+
+  #backToTopBtn{
+    bottom: 4rem;
+    right: 1rem;
+
+  }
+}
