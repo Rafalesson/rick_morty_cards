@@ -10,8 +10,7 @@
   }
 
   .navegacao {
-    width: 80%;
-    background-color: aqua;
+    width: 40%;
   }
 
   .main_titulo {
@@ -70,9 +69,6 @@
 
   }
 
-  .rodape{
-    width: 100%;
-  }
 }
 
 
