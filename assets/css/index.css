@@ -113,7 +113,7 @@
 }
 
 .card_info{
-    padding: 1rem;
+    padding: .5rem 1rem;
     color: #eee;
     display: flex;
     flex-direction: column;
