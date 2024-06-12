@@ -31,9 +31,8 @@
     height: 22vh;
   }
 
-  .nav_imgs{
-    display: flex;
-    width: 80%;
+.logo{
+  width: 7rem;
 }
 
 }
