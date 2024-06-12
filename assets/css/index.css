@@ -36,10 +36,15 @@
 
 .navegacao {
   display: flex;
+  flex-direction: column;
+  width: 100%;
   justify-content: center;
+  align-items: center;
   position: relative;
   z-index: 2;
 }
+
+
 
 .main_titulo {
   width: 100%;
