@@ -1,3 +1,8 @@
+:root{
+  font-size: 62.5%;
+}
+
+
 @font-face {
   font-family: "GetSchwifty";
   src: url("../font/get_schwifty.ttf") format("truetype");
@@ -62,16 +67,16 @@
 }
 
 .character_card {
-  width: calc(50% - 5rem);
+  display: flex;
+  flex-wrap: wrap;
+  flex: 30%;
+  margin: 1rem;
   height: 35vh;
-  margin: 1rem 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   background-color: #202020;
 }
 
-.character_card:first-child, .character_card:nth-child(2){
-    margin-top: 3rem;
-}
+
 
 .card{
     width: 100%;
@@ -82,8 +87,8 @@
 }
 
 .status-indicator {
-  height: 10px;
-  width: 10px;
+  height: 1rem;
+  width: 1rem;
   border-radius: 50%;
   display: inline-block;
   margin-right: 5px;
@@ -109,11 +114,11 @@
 .card_foto{
     width: 15vw;
     height: 100%;
-    border-radius: 10px 0 0 10px;
+    border-radius: 1rem 0 0 1rem;
 }
 
 .card_info{
-    padding: .5rem 1rem;
+    padding: 1rem 1.5rem;
     color: #eee;
     display: flex;
     flex-direction: column;
@@ -121,22 +126,22 @@
 }
 
 .card_nome{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .card_status{
     color: #ccc;
-    padding: .2rem 0;
+    padding-top: .5rem;
 }
 
 .card_location, .card_ep_nome{
-    font-size: 1.1rem;
+    font-size: 1.7rem;
 }
 
 .location, .seen{
     color: gray;
-    padding: .25rem 0;
+    padding-bottom: .5rem;
 }
 
 .container_btn{
@@ -157,21 +162,21 @@
   background-color: #eee; 
   color: #202020;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
   font-family: "Montserrat", sans-serif;
-
+  font-size: 1.2rem;
 }
 
 #autor{
   font-family: "GetSchwifty", sans-serif;
-  font-size: 1.1rem;
+  font-size: 2rem;
   color: #48b6cc;
 }
 
 #backToTopBtn {
   position: fixed;
-  right: 2rem;
-  bottom: 5rem; /* Ajuste a posição conforme necessário */
+  right: 2.5rem;
+  bottom: 7rem; /* Ajuste a posição conforme necessário */
   display: none; /* Escondido por padrão */
   z-index: 99; /* Garante que o botão fique acima de outros elementos */
   border: none;
@@ -179,8 +184,8 @@
   background-color: #555; 
   color: white;
   cursor: pointer;
-  padding: 1rem;
-  border-radius: 10px;
+  padding: 1.8rem;
+  border-radius: 1rem;
 }
 
 #backToTopBtn:hover {
